@@ -1,0 +1,5 @@
+query SearchByCategory($slug: String!, $page: Int) {
+  searchBySubcategory(slug: $slug, page: $page) {
+    title
+  }
+}

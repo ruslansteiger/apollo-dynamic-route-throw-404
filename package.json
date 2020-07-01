@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start"
+  },
+  "dependencies": {
+    "@nuxtjs/apollo": "^4.0.1-rc.1",
+    "graphql-tag": "^2.10.3",
+    "js-cookie": "^2.2.1",
+    "nuxt": "^2.13.0",
+    "vue": "2.6.11",
+    "vue-server-renderer": "2.6.11",
+    "vue-template-compiler": "2.6.11"
+  },
+  "devDependencies": {
+    "core-js": "2"
+  }
+}

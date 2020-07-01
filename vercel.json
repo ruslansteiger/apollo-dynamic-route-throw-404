@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "regions": ["cdg"],
+  "builds": [
+    {
+      "src": "nuxt.config.js",
+      "use": "@nuxtjs/now-builder"
+    }
+  ],
+  "github": {
+    "silent": true
+  }
+}
